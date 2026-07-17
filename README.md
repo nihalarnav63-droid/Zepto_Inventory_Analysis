@@ -46,10 +46,3 @@ Before performing the analysis, the raw dataset required three critical sanitati
 
 ---
 
-## 🚀 How to Run This Project
-
-1. **Create the Database & Table:** Run the schema creation block found at the top of `queries.sql`.
-2. **Import the Dataset:** 
-   * Right-click the `zepto` table in MySQL Workbench and select **Table Data Import Wizard**.
-   * Map the CSV columns. **Crucial:** Match the CSV's `Category` column to the database's lowercase `category` column, and skip/ignore `sku_id` to let the auto-increment trigger handle it.
-3. **Execute:** Run the cleaning and analysis queries sequentially to view the results.
